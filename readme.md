@@ -1,11 +1,12 @@
-#  Library Management API
+# Library Management API
 
 A fully-featured RESTful API for managing a library system, built with **Express.js**, **TypeScript**, and **MongoDB**. Effortlessly manage books, handle borrowing operations, and generate insightful borrowing reports.
 
-##  Base URL  
+## Base URL
+
 **Live API Base URL:** `https://your-live-url.com`
 
-##  Core Features
+## Core Features
 
 Create, Read, Update, and Delete books
 Borrow books with quantity and due date
@@ -15,7 +16,7 @@ Filtering and sorting support on books
 Error handling with standard format
 Built-in schema validation, instance/static methods, and middleware
 
-##  Tech Stack
+## Tech Stack
 
 - **Node.js** & **Express.js**
 - **TypeScript**
@@ -23,25 +24,19 @@ Built-in schema validation, instance/static methods, and middleware
 - RESTful API conventions
 - Mongoose Middleware & Aggregation Pipelines
 
-##  Project Structure
-src/
-├── app/
-│ ├── modules/
-│   ├── book/
-│   └── borrow/
-│ 
-├── config/
-├── server.ts
-└── index.ts
+## Project Structure
 
+<pre> <code> ``` root-folder/ ├── src/ │ ├── app/ │ │ ├── modules/ │ │ │ ├── book/ │ │ │ └── borrow/ │ │ └── utils/ │ ├── config/ ├── server.ts └── index.ts ``` </code> </pre>
 
-##  Available API Endpoints
+## Available API Endpoints
 
-###  Books
+### Books
 
-#### ➕ Create a Book  
+#### ➕ Create a Book
+
 **POST** `/api/books`  
  Request:
+
 ```json
 {
   "title": "The Theory of Everything",
@@ -119,3 +114,4 @@ Error Response Format
   }
 }
 
+```

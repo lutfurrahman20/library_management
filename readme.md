@@ -42,7 +42,7 @@ src/
 #### ➕ Create a Book  
 **POST** `/api/books`  
  Request:
-```json
+
 {
   "title": "The Theory of Everything",
   "author": "Stephen Hawking",

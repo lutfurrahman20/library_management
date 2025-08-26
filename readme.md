@@ -2,7 +2,7 @@
 A fully-featured RESTful API for managing a library system, built with Express.js, TypeScript, and MongoDB. Effortlessly manage books, handle borrowing operations, and generate insightful borrowing reports.
 
 # Base URL
-Live API Base URL: 
+Live API Base URL: https://library-management-phi-tan.vercel.app/
 
 ## Features
 

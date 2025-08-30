@@ -5,7 +5,7 @@ import { globalErrorHandler } from "./app/middleware/errorHandler";
 
 const app = express();
 app.use(cors({
-  origin : ["http://localhost:5000/",]
+  origin : ["https://library-management-client-19zmu86qk-lutfurs-projects.vercel.app"]
 }));
 
 app.use(express.json());
